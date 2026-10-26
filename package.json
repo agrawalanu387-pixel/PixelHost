@@ -1,0 +1,20 @@
+
+{
+  "name": "pixelhost",
+  "version": "1.0.0",
+  "description": "PixelHost Minecraft server management panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "pixelhost",
+    "minecraft",
+    "hosting"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
