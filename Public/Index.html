@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic page settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Browser tab title -->
+  <title>PixelHost | Minecraft Server Panel</title>
+
+  <!-- Connect the design file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ===================================
+       1. TOP NAVIGATION
+       =================================== -->
+  <header>
+    <div class="logo">◆ PIXELHOST</div>
+
+    <!-- JavaScript updates this status -->
+    <span class="status">● CHECKING BACKEND...</span>
+  </header>
+
+  <!-- ===================================
+       2. MAIN DASHBOARD
+       =================================== -->
+  <main>
+    <p class="eyebrow">MINECRAFT SERVER PANEL</p>
+
+    <h1>
+      Your servers.<br>
+      <span>Your world.</span>
+    </h1>
+
+    <p class="description">
+      Manage your Minecraft servers from one place.
+    </p>
+
+    <!-- ===================================
+         3. JAVA SERVER CARD
+         =================================== -->
+    <section class="server-card">
+      <div>
+        <p class="server-type">JAVA EDITION</p>
+        <h2>Java Server</h2>
+        <p class="muted">Hosting not connected</p>
+      </div>
+
+      <!-- Disabled until real hosting is connected -->
+      <button disabled>Not Connected</button>
+    </section>
+
+    <!-- ===================================
+         4. BEDROCK SERVER CARD
+         =================================== -->
+    <section class="server-card">
+      <div>
+        <p class="server-type">BEDROCK EDITION</p>
+        <h2>Bedrock Server</h2>
+        <p class="muted">Hosting not connected</p>
+      </div>
+
+      <!-- Disabled until real hosting is connected -->
+      <button disabled>Not Connected</button>
+    </section>
+
+    <!-- ===================================
+         5. DEMO NOTICE
+         =================================== -->
+    <p class="notice">
+      PixelHost is in beta. This is a dashboard
+      demo; no Minecraft server is running.
+    </p>
+  </main>
+
+  <!-- ===================================
+       6. FOOTER
+       =================================== -->
+  <footer>
+    PIXELHOST © 2026
+  </footer>
+
+  <!-- ===================================
+       7. LOAD THE JAVASCRIPT FILE
+       This connects the dashboard to the
+       backend status-checking code.
+       =================================== -->
+  <script src="app.js"></script>
+</body>
+</html>
